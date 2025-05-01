@@ -13,7 +13,7 @@ html {
   block-size: 100%;
   margin: auto;
   color: #fff;
-  font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
   background-color: #1b1919;
 }
@@ -47,7 +47,7 @@ ol {
 }
 
 .custom-scrollbar::-webkit-scrollbar-thumb {
-  background-color: #D9D9D9;
+  background-color: #d9d9d9;
 }
 
 .page {
@@ -60,7 +60,7 @@ ol {
   display: grid;
   grid-template-columns: 711px 399px;
   gap: 0 30px;
-  grid-template-areas: 
+  grid-template-areas:
     "result details"
     ". details";
   align-items: end;
@@ -77,7 +77,7 @@ ol {
 .result__video-container {
   position: relative;
   width: 100%;
-  padding-top: 53.8%; /* 386/711*100% */
+  padding-top: 53.8%;
   margin: 78px 0 16px;
 }
 
@@ -104,12 +104,12 @@ ol {
 }
 
 .search-form__fieldset-title {
-font-family: 'Fira Sans Condensed';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-color: #FFFFFF;
-margin-bottom: 5px;
+  font-family: "Fira Sans Condensed";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #ffffff;
+  margin-bottom: 5px;
 }
 
 .search-form__label {
@@ -123,9 +123,6 @@ margin-bottom: 5px;
 .search-form__label:has(:focus-visible) {
   outline: 1px solid #fff;
   outline-offset: 2px;
-}
-
-.search-form__label-text {
 }
 
 .visually-hidden {
@@ -143,7 +140,7 @@ margin-bottom: 5px;
   appearance: none;
   border-width: 1px 0px;
   border-style: solid;
-  border-color: #FFFFFF;
+  border-color: #ffffff;
   background: none;
   font-family: inherit;
   font-style: normal;
@@ -161,9 +158,6 @@ margin-bottom: 5px;
   gap: 15px;
 }
 
-.search-form__checkbox {
-}
-
 .search-form__pseudo-checkbox {
   position: relative;
   width: 19px;
@@ -172,7 +166,7 @@ margin-bottom: 5px;
 }
 
 .search-form__pseudo-checkbox::after {
-  content: '';
+  content: "";
   position: absolute;
   inset: 1px;
   background: #fff;
@@ -188,14 +182,14 @@ margin-bottom: 5px;
 }
 
 .button {
-  border: 1px solid #FFFFFF;
+  border: 1px solid #ffffff;
   background: transparent;
-  font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: "Fira Sans Condensed", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
   padding: 6px;
   cursor: pointer;
   transition: 0.3s;
@@ -215,7 +209,7 @@ margin-bottom: 5px;
 }
 
 .button:focus-visible {
-  outline: 1px solid #FFF;
+  outline: 1px solid #fff;
   outline-offset: 2px;
 }
 
@@ -232,7 +226,7 @@ margin-bottom: 5px;
 }
 
 .title {
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 75px;
   font-weight: 700;
   line-height: 0.94;
@@ -256,9 +250,6 @@ margin-bottom: 5px;
   gap: 25px;
 }
 
-.preloader-template {
-}
-
 .preloader {
   position: absolute;
   top: 0;
@@ -272,17 +263,11 @@ margin-bottom: 5px;
   z-index: 10;
 }
 
-.preloader-chasing-squares {
-}
-
 .square {
   position: absolute;
   width: 20px;
   height: 20px;
   background: #fff;
-}
-
-.cards-list-item-template {
 }
 
 .content__list-item {
@@ -294,7 +279,7 @@ margin-bottom: 5px;
   display: block;
   text-decoration: none;
   transition: 0.3s;
-  color: #FFFFFF;
+  color: #ffffff;
   cursor: pointer;
 }
 
@@ -336,29 +321,28 @@ margin-bottom: 5px;
 }
 
 .content__video-card-title {
-font-family: 'Oswald', sans-serif;
-font-style: normal;
-font-weight: 700;
-font-size: 30px;
-text-transform: uppercase;
-color: #FFFFFF;
-overflow: hidden;
-text-overflow: ellipsis;
-white-space: nowrap;
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #ffffff;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
-
 .content__video-card-description {
-font-family: 'Fira Sans Condensed', sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 16px;
-color: #FFFFFF;
-display: -webkit-box;
--webkit-line-clamp: 2;
-overflow: hidden;
-text-overflow: ellipsis;
+  font-family: "Fira Sans Condensed", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 16px;
+  color: #ffffff;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .content__video-card-thumbnail {
@@ -368,19 +352,6 @@ text-overflow: ellipsis;
   flex-shrink: 0;
 }
 
-.more-button-template {
-}
-
 .more-button {
   width: 100%;
-
-}
-
-.error-template {
-}
-
-.error {
-}
-
-.error__title {
 }
